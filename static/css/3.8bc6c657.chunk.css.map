@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.module.scss"],"names":[],"mappings":"AAAA,yBACE,UAAW,CACX,gBAAiB,CACjB,aAAc,CACd,iBAAkB","file":"3.8bc6c657.chunk.css","sourcesContent":[".container {\n  width: 100%;\n  max-width: 1112px;\n  margin: 0 auto;\n  padding: 20px 15px;\n}\n"]}

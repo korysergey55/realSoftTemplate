@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/realSoftTemplate/static/css/main.fd126cf2.chunk.css",
+    "main.js": "/realSoftTemplate/static/js/main.cc58d13d.chunk.js",
+    "main.js.map": "/realSoftTemplate/static/js/main.cc58d13d.chunk.js.map",
+    "runtime-main.js": "/realSoftTemplate/static/js/runtime-main.0799c0cb.js",
+    "runtime-main.js.map": "/realSoftTemplate/static/js/runtime-main.0799c0cb.js.map",
+    "static/css/2.5cc265e8.chunk.css": "/realSoftTemplate/static/css/2.5cc265e8.chunk.css",
+    "static/js/2.973e58e3.chunk.js": "/realSoftTemplate/static/js/2.973e58e3.chunk.js",
+    "static/js/2.973e58e3.chunk.js.map": "/realSoftTemplate/static/js/2.973e58e3.chunk.js.map",
+    "static/css/3.8bc6c657.chunk.css": "/realSoftTemplate/static/css/3.8bc6c657.chunk.css",
+    "static/js/3.348a26ae.chunk.js": "/realSoftTemplate/static/js/3.348a26ae.chunk.js",
+    "static/js/3.348a26ae.chunk.js.map": "/realSoftTemplate/static/js/3.348a26ae.chunk.js.map",
+    "index.html": "/realSoftTemplate/index.html",
+    "precache-manifest.94b283e78af0a200e2515acbec9d4aa2.js": "/realSoftTemplate/precache-manifest.94b283e78af0a200e2515acbec9d4aa2.js",
+    "service-worker.js": "/realSoftTemplate/service-worker.js",
+    "static/css/2.5cc265e8.chunk.css.map": "/realSoftTemplate/static/css/2.5cc265e8.chunk.css.map",
+    "static/css/3.8bc6c657.chunk.css.map": "/realSoftTemplate/static/css/3.8bc6c657.chunk.css.map",
+    "static/css/main.fd126cf2.chunk.css.map": "/realSoftTemplate/static/css/main.fd126cf2.chunk.css.map",
+    "static/js/2.973e58e3.chunk.js.LICENSE.txt": "/realSoftTemplate/static/js/2.973e58e3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0799c0cb.js",
+    "static/css/2.5cc265e8.chunk.css",
+    "static/js/2.973e58e3.chunk.js",
+    "static/css/main.fd126cf2.chunk.css",
+    "static/js/main.cc58d13d.chunk.js"
+  ]
+}

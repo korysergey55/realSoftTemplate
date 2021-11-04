@@ -1,0 +1,2 @@
+(this["webpackJsonpmy-app"]=this["webpackJsonpmy-app"]||[]).push([[3],{80:function(e,n,t){e.exports={container:"styles_container__3t217"}},81:function(e,n,t){"use strict";t.r(n);var a=t(24),c=t(0),r=t(80),l=t.n(r);n.default=function(){return c.createElement(c.Fragment,null,c.createElement("div",{className:l.a.container},c.createElement("h2",null,"HomePage"),c.createElement(a.a,null)))}}}]);
+//# sourceMappingURL=3.348a26ae.chunk.js.map

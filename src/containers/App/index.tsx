@@ -15,7 +15,7 @@ const App = () => {
         <Suspense fallback={<Loader />}>
           <Switch>
             <PrivateRoute exact path="/sounter" component={HomePage} />
-            <Route exact path="/" component={HomePage} />
+            <Route exact path="/home" component={HomePage} />
           </Switch>
         </Suspense>
       </Router>

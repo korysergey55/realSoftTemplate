@@ -5,6 +5,7 @@ import store from 'stores'
 import history from 'utils/history'
 import PrivateRoute from 'components/PrivateRoute'
 import Loader from 'components/Loader'
+import NotFoundComponent from 'components/NotFound'
 
 const HomePage = lazy(() => import('containers/Public/HomePage/index'))
 
@@ -14,8 +15,9 @@ const App = () => {
       <Router history={history}>
         <Suspense fallback={<Loader />}>
           <Switch>
-            <PrivateRoute exact path="/sounter" component={HomePage} />
-            <Route exact path="/home" component={HomePage} />
+            <PrivateRoute exact path="/private" component={''} />
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/:id" component={NotFoundComponent} />
           </Switch>
         </Suspense>
       </Router>

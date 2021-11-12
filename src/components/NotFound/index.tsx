@@ -13,7 +13,6 @@ const NotFoundComponent: React.FC<IProps> = ({
   img = notFoundImg,
 }) => {
   const history = useHistory()
-  console.log(notFoundImg)
   return (
     <div className={styles.container}>
       <div className={styles.wripper}>

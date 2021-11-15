@@ -16,19 +16,15 @@ const Header: React.FC<Iprops> = ({ logo = '', title = 'Header' }) => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <button
-          className={styles.button}
-          type="button"
-          onClick={() => history.push(paths.home)}
-        >
+        <a className={styles.link} onClick={() => history.push(paths.home)}>
           <FontAwesomeIcon
             className={styles.icon}
             icon={faReact}
             color="red"
             size="3x"
           />
-        </button>
-        {logo && <img src={logo} alt="logo" />}
+        </a>
+        {logo && <img className={styles.logo} src={logo} alt="logo" />}
         <h2 className={styles.title}>{title}</h2>
       </div>
     </header>

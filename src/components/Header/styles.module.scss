@@ -4,6 +4,7 @@
   position: fixed;
   top: 0%;
   left: 0%;
+  z-index: 10;
   width: 100%;
   background-color: white;
   border-bottom: 2px solid $brandColor;
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     width: 100%;
     max-width: 1112px;
     margin: 0 auto;
@@ -22,10 +24,7 @@
       font-weight: 700;
       color: $brandColor;
     }
-    .button {
-      border: none;
-      background-color: transparent;
-
+    .link {
       .icon {
         margin-right: 7px;
         color: $brandColor;

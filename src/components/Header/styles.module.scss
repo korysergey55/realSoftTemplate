@@ -19,15 +19,15 @@
     margin: 0 auto;
     padding: 10px;
 
+    .link {
+      &:hover {
+        cursor: pointer;
+      }
+    }
     .title {
       font-size: 25px;
       font-weight: 700;
       color: $brandColor;
-    }
-    .iconHome {
-      width: 40px;
-      height: 40px;
-      fill: $brandColor;
     }
     .icon {
       margin-right: 7px;

@@ -1,4 +1,8 @@
+@import '../../../sources/styles/variables.scss';
 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: 1112px;
   margin: 0 auto;
@@ -7,6 +11,7 @@
   .title {
     text-align: center;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
+    color: $brandColor;
   }
 }

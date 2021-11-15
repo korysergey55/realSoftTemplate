@@ -24,11 +24,14 @@
       font-weight: 700;
       color: $brandColor;
     }
-    .link {
-      .icon {
-        margin-right: 7px;
-        color: $brandColor;
-      }
+    .iconHome {
+      width: 40px;
+      height: 40px;
+      fill: $brandColor;
+    }
+    .icon {
+      margin-right: 7px;
+      color: $brandColor;
     }
   }
 }

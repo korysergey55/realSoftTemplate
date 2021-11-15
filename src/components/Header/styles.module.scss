@@ -1,7 +1,12 @@
 @import '../../sources/styles/variables.scss';
 
 .header {
-  border: 1px solid $brandColor;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid $brandColor;
 
   .container {
     display: flex;
@@ -14,7 +19,8 @@
 
     .title {
       font-size: 25px;
-      font-weight: 600;
+      font-weight: 700;
+      color: $brandColor;
     }
     .icon {
       margin-right: 7px;

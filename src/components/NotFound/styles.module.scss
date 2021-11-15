@@ -1,11 +1,13 @@
+@import '../../sources/styles/variables.scss';
+
 .container {
   display: block;
   width: 100%;
   max-width: 1112px;
   margin: 0 auto;
   padding: 50px 15px;
-  border-top: 3px solid #1c72f3;
-  border-bottom: 3px solid #1c72f3;
+  border-top: 3px solid $brandColor;
+  border-bottom: 3px solid $brandColor;
 
   .wripper {
     display: flex;
@@ -37,7 +39,7 @@
         font-weight: 550;
         line-height: 51px;
         text-align: center;
-        color: #1c72f3;
+        color: $brandColor;
       }
       .text {
         max-width: 448px;
@@ -61,7 +63,7 @@
         border: none;
         border-radius: 7px;
         color: #ffffff;
-        background-color: #1c72f3;
+        background-color: $brandColor;
 
         &:hover {
           cursor: pointer;

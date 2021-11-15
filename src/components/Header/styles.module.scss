@@ -22,9 +22,14 @@
       font-weight: 700;
       color: $brandColor;
     }
-    .icon {
-      margin-right: 7px;
-      color: $brandColor;
+    .button {
+      border: none;
+      background-color: transparent;
+
+      .icon {
+        margin-right: 7px;
+        color: $brandColor;
+      }
     }
   }
 }

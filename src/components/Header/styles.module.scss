@@ -1,4 +1,4 @@
-@import '../../sources/styles/variables.scss';
+@import 'sources/styles/variables.scss';
 
 .header {
   position: fixed;
@@ -23,14 +23,15 @@
       &:hover {
         cursor: pointer;
       }
+      .logo {
+        display: block;
+        max-height: 50px;
+        max-width: 200px;
+      }
     }
     .title {
       font-size: 25px;
       font-weight: 700;
-      color: $brandColor;
-    }
-    .icon {
-      margin-right: 7px;
       color: $brandColor;
     }
   }

@@ -1,7 +1,8 @@
 import * as React from 'react'
 import { useHistory } from 'react-router'
+import { paths } from 'utils/paths'
 import styles from './styles.module.scss'
-import notFoundImg from '../../sources/images/404.jpg'
+import notFoundImg from 'sources/images/404.jpg'
 
 interface IProps {
   title: string
@@ -16,7 +17,7 @@ const NotFoundComponent: React.FC<IProps> = ({
   return (
     <div className={styles.container}>
       <div className={styles.wripper}>
-        <img className={styles.img} src={img} alt="" />
+        <img className={styles.img} src={img} alt="notFoundImg" />
         <div className={styles.rigthSide}>
           <h2 className={styles.title}>404</h2>
           <h3 className={styles.subtitle}>{title}</h3>
@@ -27,7 +28,7 @@ const NotFoundComponent: React.FC<IProps> = ({
           <button
             type="button"
             className={styles.buttonBackHome}
-            onClick={() => history.push('/')}
+            onClick={() => history.push(paths.home)}
           >
             Back to home
           </button>
